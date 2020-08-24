@@ -15,6 +15,7 @@ class App extends React.Component {
         <BookContainer book = {book}/>
         <Footer />
         <ToTheTopButton/>
+        <div id="modal-root"></div>
       </>
     )
   }
